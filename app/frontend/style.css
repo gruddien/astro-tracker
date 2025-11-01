@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Gugi&family=Monda:wght@400..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Monda, Roboto, sans-serif;
+    background: radial-gradient(farthest-corner,#0F1316, #000000);
+    min-height: 100vh;
+    color: #ffffff;
+}
+
+.app-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+.app-header {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    gap: 14px;
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+.app-header h1 {
+    font-family: Gugi;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
+.header-btns {
+    padding: 0 38px;
+}
+
+.app-header button {
+    font-family: Gugi;
+    font-size: 1rem;
+    color: #ffffff;
+    background: none;
+    border: none;
+    padding: 1rem 0.75rem;
+    cursor: pointer;
+}
+
+.app-header button:hover {
+    background: rgba(255, 255, 255, 0.11);
+}
+
+
+.dashboard {
+    display: flex;
+}
+
+.dashboard-container {
+    margin: 16px;
+    background-color: #1f1f1f2a;
+    border-radius: 16px;
+}
+
+#json-dump button {
+    padding: 4px 8px;
+    cursor: pointer;
+}

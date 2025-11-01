@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AstroTracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-container">
+    <header class="app-header">
+      <svg width="31" height="34" viewBox="0 0 31 34" fill="none">
+      <path d="M12.9629 0C22.904 0 30.9629 8.05887 30.9629 18C30.9629 24.4095 27.6121 30.0355 22.5674 33.2246C24.0907 30.3621 24.9629 27.0415 24.9629 23.5C24.9629 12.7304 16.904 4 6.96289 4C4.49446 4 2.14177 4.5376 0 5.51172C3.27418 2.1139 7.87162 0 12.9629 0Z" fill="white"/>
+      </svg>
+      <h1>ASTRO</h1>
+      <div class="header-btns">
+        <button>Dashboard</button>
+        <button>Observations</button>
+      </div>
+    </header>
+    <div class="dashboard">
+      <div class="dashboard-container" id="weather-container">
+        <h2>Weather</h2>
+        <h3>Today's date</h3>
+        <p id="date">0000-00-00</p>
+        <div>
+          <h4>Temperature</h4>
+            <p><span id="temp">00</span>&deg;</p>
+            <h4>Cloudiness</h4>
+            <p><span id="cloudiness">000</span>%</p>
+        </div>
+      </div>
+
+      <div class="dashboard-container" id="json-dump">
+        <h2>JSON RESPONSE</h2>
+        <button id="api-btn">Call API</button>
+        <p id="response-block">No response</p>
+      </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
